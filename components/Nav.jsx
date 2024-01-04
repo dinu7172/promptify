@@ -117,6 +117,7 @@ const Nav = () => {
           </div>
         ) : (
           <>
+          console.log(providers);
             {providers &&
               Object.values(providers).map((provider) => (
                 <button
